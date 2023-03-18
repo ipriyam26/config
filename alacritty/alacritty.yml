@@ -1,0 +1,94 @@
+import:
+  - /path/to/dracula.yml
+
+
+window:
+  dynamic_padding: true
+
+  decorations: buttonless
+
+  opacity: 0.6 
+  
+  startup_mode: Windowed
+  padding:
+    x: 1
+    y: 5  
+  
+
+scrolling:
+  history: 10000
+
+
+font:
+  # Normal (roman) font face
+  normal:
+
+    family: MesloLGS NF 
+
+    style: Regular 
+
+   # Point size
+  size: 14.0 
+
+
+draw_bold_text_with_bright_colors: true
+
+# Colors (Tomorrow Night)
+colors:
+  # Default colors
+  primary:
+    background: '#121212'
+    foreground: '#e1e9e1'
+
+
+    dim_foreground: '#545554'
+    bright_foreground: '#eff6ef'
+
+  
+  vi_mode_cursor:
+  #  text: CellBackground
+    cursor: '#1e90ff'
+
+  
+  # Normal colors
+  normal:
+  #  black:   '#1d1f21'
+  #  red:     '#cc6666'
+    green:   '#59e858'
+    yellow:  '#ffea7f'
+    blue:    '#0fc9e4'
+    magenta: '#b392f0'
+    cyan:    '#73e3ff'
+    white:   '#666666'
+
+  # Bright colors
+  bright:
+  #  black:   '#666666'
+  #  red:     '#d54e53'
+    green:   '#85e89d'
+    yellow:  '#ffea7f'
+    blue:    '#1e90ff'
+    magenta: '#b392f0'
+    cyan:    '#1e90ff'
+    white:   '#f6f8fa'
+
+
+cursor:
+  # Cursor style
+  style:
+
+    shape: Beam
+
+    blinking: On
+
+
+  blink_interval: 500
+
+ 
+key_bindings:
+
+  - { key: Space,  mods: Control, mode: ~Search,    action: ToggleViMode            }
+
+  - { key: Key6,           mods: Control,                    chars: "\x1e"                 }
+  - { key: Key9,           mods: Command,                    action: ResetFontSize         }
+ 

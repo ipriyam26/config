@@ -1,0 +1,6 @@
+{
+  "enable-web": true,
+  "enable-macos-desktop": true,
+  "android-studio-dir": "/Volumes/SSD/Applications/Android Studio.app",
+  "android-sdk": "/Volumes/SSD/Applications/Android/sdk"
+}
